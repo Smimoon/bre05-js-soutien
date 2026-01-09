@@ -1,6 +1,7 @@
 function displayArrayReverse(array) {
-    console.log(array.reverse(array));
-
+    for (let i = array.length; i>= 0; i--) {
+        console.log(array[i]);
+    }
 }
 
 let table = [1, 2, 3, 4, 5];
